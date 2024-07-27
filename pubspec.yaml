@@ -1,0 +1,72 @@
+name: tour_place_catalog
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/tour_1/museum_trowulan.jpg
+    - assets/images/tour_1/mustro_1.jpg
+    - assets/images/tour_1/mustro_2.jpg
+    - assets/images/tour_1/mustro_3.jpg
+    - assets/images/tour_2/candi-bajang-ratu.jpg
+    - assets/images/tour_2/canbarat_1.jpg
+    - assets/images/tour_2/canbarat_2.jpg
+    - assets/images/tour_2/canbarat_3.jpg
+    - assets/images/tour_3/duyung-trawas-hill.jpg
+    - assets/images/tour_3/dutrahi_1.jpg
+    - assets/images/tour_3/dutrahi_2.jpg
+    - assets/images/tour_3/dutrahi_3.jpg
+    - assets/images/tour_4/coban-canggu.jpg
+    - assets/images/tour_4/coca_1.jpg
+    - assets/images/tour_4/coca_2.jpg
+    - assets/images/tour_4/coca_3.jpg
+    - assets/images/tour_5/bukit-watu-jengger.jpg
+    - assets/images/tour_5/buwajeng_1.jpg
+    - assets/images/tour_5/buwajeng_2.jpg
+    - assets/images/tour_5/buwajeng_3.jpg
+    - assets/images/tour_6/coban-watu-lumpang.jpg
+    - assets/images/tour_6/cowalum_1.jpg
+    - assets/images/tour_6/cowalum_2.jpg
+    - assets/images/tour_6/cowalum_3.jpg
+    - assets/images/tour_7/gunung-penanggungan.jpg
+    - assets/images/tour_7/gupeng_1.jpg
+    - assets/images/tour_7/gupeng_2.jpg
+    - assets/images/tour_7/gupeng_3.jpg
+    - assets/images/tour_8/candi-jedong.jpg
+    - assets/images/tour_8/canjed_1.jpg
+    - assets/images/tour_8/canjed_2.jpg
+    - assets/images/tour_8/canjed_3.jpg
+    - assets/images/tour_9/coban-grenjengan.jpg
+    - assets/images/tour_9/cogren_1.jpg
+    - assets/images/tour_9/cogren_2.jpg
+    - assets/images/tour_9/cogren_3.jpg
+    - assets/images/tour_10/ranu-manduro.jpg
+    - assets/images/tour_10/ranman_1.jpg
+    - assets/images/tour_10/ranman_2.jpg
+    - assets/images/tour_10/ranman_3.jpg
+
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
+
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen-Bold.ttf
+          weight: 700
